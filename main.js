@@ -25,7 +25,7 @@ input.addEventListener("keypress", function (event){
  btn.addEventListener("click", getWeather);
 
 function getWeather(){
-    var url = "http://api.openweathermap.org/data/2.5/weather?q="+weatherLocation+"&units=metric&APPID=07e1a1062609d298c2ca81fcc314cf28";
+    var url = "https://api.openweathermap.org/data/2.5/weather?q="+weatherLocation+"&units=metric&APPID=07e1a1062609d298c2ca81fcc314cf28";
     fetch(url)
     .then(function(request){
         if(!request.ok){
