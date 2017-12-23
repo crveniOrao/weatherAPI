@@ -1,0 +1,61 @@
+body {
+  width: 100%;
+  text-align: center;
+  background: #F2E9E1; }
+
+.wrapper {
+  background: #CBE86B;
+  width: 30%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px; }
+
+.title {
+  width: 100%;
+  height: 15rem;
+  color: #F2E9E1;
+  background: #1C140D;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#input {
+  width: 50%;
+  margin: 2rem auto; }
+
+#city {
+  color: #1C140D;
+  font-size: 3em; }
+
+#temp {
+  color: #1C140D;
+  font-weight: 200;
+  font-size: 2.5em; }
+
+#weatherDesc {
+  color: #1C140D; }
+
+#weatherDesc {
+  color: #1C140D;
+  font-size: 1em; }
+
+#refreshBtn {
+  color: #F2E9E1;
+  background: #1C140D;
+  border: none;
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  outline: none; }
+
+#refreshBtn:hover {
+  background: #CBE86B;
+  color: #1C140D;
+  cursor: pointer; }
+
+#refreshBtn:active {
+  border-bottom: 1px solid #1C140D;
+  border-top: 1px solid #1C140D; }
